@@ -220,7 +220,7 @@ h2{
 
 .project-link{
     background-color: #244855;
-    padding: 1rem;
+    padding: 0;
 }
 
 .Coming-soon{
@@ -228,19 +228,20 @@ h2{
 }
 
 .Coming-soon img{
-    height: 15rem;
-    width: 12.5rem;
+    height: 10rem;
+    width: 15rem;
 }
 
 .Coming-soon figcaption{
     color: #fbe9d0;
     font-weight: 900;
+    margin: 2rem;
 }
 h4{
     margin: 1rem;
 }
 .project-link:hover{
-    box-shadow: 0 4px 8px #874f41;
+    box-shadow: 0 1rem 2rem #874f41;
 }
 
 .contact-links{
@@ -249,4 +250,16 @@ h4{
     justify-content: center;
     gap: 0.5rem;
     padding: 0;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: #244855;
+    color: #fbe9d0;
+}
+
+footer p{
+    margin: 0;
 }
