@@ -178,6 +178,11 @@ h1{
     padding: 2rem;
 }
 
+.About-me a{
+    color: #fbe9d0;
+    font-style: italic;
+    text-decoration: underline;
+}
 /*projects tab*/
 
 h2{
@@ -200,10 +205,6 @@ h2{
     background-color: #244855;
     color: #fbe9d0;
 }
-
-
-
-
 
 .projects section{
     display: flex;
@@ -237,12 +238,11 @@ h2{
     font-weight: 900;
     margin: 2rem;
 }
-h4{
-    margin: 1rem;
-}
 .project-link:hover{
     box-shadow: 0 1rem 2rem #874f41;
 }
+
+/*Contact me Section*/
 
 .contact-links{
     display: flex;
